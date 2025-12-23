@@ -54,4 +54,11 @@ dc.seperator(df,seniority_level_lis,"seniority_level")
 col_to_drop = ["company","post_date","headquarter","company_size","revenue"]
 df = df.drop(columns=col_to_drop)
 
+# LAST DROP TO NaN ROWS: 
+df = df.dropna()
+df.loc[316,'avg_salary'] = float(df.loc[316,'avg_salary'] // 10)
+dc.null_info(df)
+
 df.to_csv("salary_data_cleaned.csv", index= False)
+
+

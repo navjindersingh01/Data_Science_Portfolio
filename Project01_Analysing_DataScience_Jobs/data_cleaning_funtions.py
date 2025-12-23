@@ -67,7 +67,6 @@ def null_remover(dataframe):
     '''
 
     dataframe = dataframe.dropna(axis = 0,how = 'any',ignore_index = True)
-    null_info(dataframe)
 
     return dataframe
 
