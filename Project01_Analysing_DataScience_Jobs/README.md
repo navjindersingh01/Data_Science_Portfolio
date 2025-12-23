@@ -29,7 +29,7 @@ https://www.kaggle.com/datasets/nalisha/data-science-careers-and-salaries-2025
 |                 |                 |        |          | Education    |           |        |        |
 |                 |                 |        |          | Energy       |           |        |        |
 |                 |                 |        |          | Logistics    |           |        |        |
-|-----------------|-----------------|--------|----------|--------------|-----------|--------|--------|
+|                 |                 |        |          |              |           |        |        |
 
 ### List of Skills and number of companies who require these skills are: 
 - python            : 239
@@ -66,8 +66,20 @@ https://www.kaggle.com/datasets/nalisha/data-science-careers-and-salaries-2025
 - bash              : 2
 - sklearn           : 2
 
-
 ## After Cleaning and Processing Data:
 ### The list of Columns present at this point is as below:
 
 ['job_title', 'seniority_level', 'status', 'location', 'industry', 'ownership', 'salary', 'skills', 'min_salary', 'max_salary', 'avg_salary', 'spark', 'r', 'python', 'scala', 'machine learning', 'tensorflow', 'sql', 'aws', 'git', 'docker', 'gcp', 'kubernetes', 'deep learning', 'scikit-learn', 'pytorch', 'keras', 'java', 'pandas', 'powerbi', 'tableau', 'hadoop', 'azure', 'airflow', 'numpy', 'neural network', 'matplotlib', 'database', 'amazon', 'scipy', 'linux', 'bash', 'opencv', 'sklearn', 'Public', 'Private', 'hybrid', 'on-site', 'remote', 'Retail', 'Manufacturing', 'Technology', 'Finance', 'Education', 'Healthcare', 'Energy', 'Logistics', 'senior', 'lead', 'junior', 'midlevel']
+
+
+## Done some EDA:
+### Get some idea about the dataset belos:
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="EDA_Graphs/Average_Salary_in_Different_industries.png" alt="Average_Salary_in_Different_industries" style="width: 550px; margin: 5px;">
+  <img src="EDA_Graphs/Job_Distribution_in_Three_different_States_of_working.png" alt="Job_Distribution_in_Three_different_States_of_working" style="width: 550px; margin: 5px;">
+</div>
+<div style="display: flex; justify-content: space-around;">
+  <img src="EDA_Graphs/Normal_Distribution_of_Salary.png" alt="Normal_Distribution_of_Salary" style="width: 550px; margin: 5px;">
+  <img src="EDA_Graphs/Range_and_Concentration_of_Salary_in_Different_leves.png" alt="Range_and_Concentration_of_Salary_in_Different_leves" style="width: 550px; margin: 5px;">
+</div>
