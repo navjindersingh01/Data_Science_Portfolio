@@ -1,7 +1,7 @@
 # Project01_Analysing_DataScience_Jobs
 
 ## Resource:
-https://www.kaggle.com/datasets/nalisha/data-science-careers-and-salaries-2025
+This data is sourced from [**www.kaggle.com**](https://www.kaggle.com/datasets/nalisha/data-science-careers-and-salaries-2025)
 
 ## Catagorical info about data:
 
@@ -29,15 +29,14 @@ https://www.kaggle.com/datasets/nalisha/data-science-careers-and-salaries-2025
 |                 |                 |        |          | Education    |           |        |        |
 |                 |                 |        |          | Energy       |           |        |        |
 |                 |                 |        |          | Logistics    |           |        |        |
-|                 |                 |        |          |              |           |        |        |
 
 ### List of Skills and number of companies who require these skills are: 
-- python            : 239
-- machine learning  : 223
-- sql               : 161
-- r                 : 119
-- aws               : 108
-- deep learning     : 90
+- **python**            : 239
+- **machine learning**  : 223
+- **sql**               : 161
+- **r**                 : 119
+- **aws**               : 108
+- **deep learning**     : 90
 - tensorflow        : 83
 - pytorch           : 79
 - spark             : 77
@@ -72,8 +71,8 @@ https://www.kaggle.com/datasets/nalisha/data-science-careers-and-salaries-2025
 ['job_title', 'seniority_level', 'status', 'location', 'industry', 'ownership', 'salary', 'skills', 'min_salary', 'max_salary', 'avg_salary', 'spark', 'r', 'python', 'scala', 'machine learning', 'tensorflow', 'sql', 'aws', 'git', 'docker', 'gcp', 'kubernetes', 'deep learning', 'scikit-learn', 'pytorch', 'keras', 'java', 'pandas', 'powerbi', 'tableau', 'hadoop', 'azure', 'airflow', 'numpy', 'neural network', 'matplotlib', 'database', 'amazon', 'scipy', 'linux', 'bash', 'opencv', 'sklearn', 'Public', 'Private', 'hybrid', 'on-site', 'remote', 'Retail', 'Manufacturing', 'Technology', 'Finance', 'Education', 'Healthcare', 'Energy', 'Logistics', 'senior', 'lead', 'junior', 'midlevel']
 
 
-## Done some EDA:
-### Get some idea about the dataset belos:
+## [Done some EDA:](./EDA-interactive_notebook.ipynb)
+### Get some idea about the dataset in the following graphs:
 
 <div style="display: flex; justify-content: space-around;">
   <img src="EDA_Graphs/Average_Salary_in_Different_industries.png" alt="Average_Salary_in_Different_industries" style="width: 550px; margin: 5px;">
