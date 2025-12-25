@@ -82,3 +82,8 @@ This data is sourced from [**www.kaggle.com**](https://www.kaggle.com/datasets/n
   <img src="EDA_Graphs/Normal_Distribution_of_Salary.png" alt="Normal_Distribution_of_Salary" style="width: 550px; margin: 5px;">
   <img src="EDA_Graphs/Range_and_Concentration_of_Salary_in_Different_leves.png" alt="Range_and_Concentration_of_Salary_in_Different_leves" style="width: 550px; margin: 5px;">
 </div>
+
+## Build a model
+### I used **Random Forest Regressor** for my Model. And Optimize the Model with GridSearchCV.
+### And I productionize it with Flask API.
+[Please refer to the directory, by clicking here.](/FlaskAPI/)
