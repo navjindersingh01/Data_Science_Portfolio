@@ -5,3 +5,5 @@ Collection of Small Projects.
   in Difference Cities or Areas.
 - Project02_Linear_Algebra_and_Matrices
   This project is based on the practice for the linear algebra (vectors and Matrics).
+- Project03_Data_Structures_and_Algorithms
+  This project is based on the practice of Data Structures and Algorithms in 100 projects.
