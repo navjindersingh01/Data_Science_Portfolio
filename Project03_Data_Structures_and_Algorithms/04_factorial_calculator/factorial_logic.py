@@ -12,6 +12,3 @@ class Factorial:
         for i in range(num,0,-1):
             fact = fact * i
         return fact
-
-factorial = Factorial()
-print(factorial.factorial_iterative(5))
